@@ -1,0 +1,223 @@
+/*Common elements*/
+
+body {
+    border: black solid;
+    border-width: 30px;
+    background:black url(https://th.bing.com/th/id/OIP.7CMjby0BAlkxKz0ftNrJPAHaFT?w=237&h=180&c=7&r=0&o=5&dpr=1.75&pid=1.7) fixed center;
+    margin: 0px 20% 40px 20%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+    
+
+#utilityMenu {
+    float: right;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    color: orangered;
+    background-color: black;
+    margin: auto;
+    
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+nav li {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+}
+
+nav li a, nav li a:visited {
+    text-decoration: none;
+    color: #C64322;
+    padding: 0.3em 0.6em;
+}
+
+nav li a:hover {
+    color: #C64322;
+    background-color: rgba(252,251,243,00.75);
+}
+
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1170px;
+    padding: 0 3.0em;
+
+}
+
+
+.slides {
+    background: black url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/halloween-quotes-1540914760.jpg?crop=0.910xw:0.683xh;0,0.317xh&resize=1200:*) fixed top center;
+    font-family: "cursive", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Sans', sans-serif;
+    border: black solid 2px;
+    padding: 100px;
+    margin: 0px 0px 0px 0px;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+
+}
+
+.arrow {
+    border: solid white;
+    border-width: 0 20px 20px 0;
+    display: inline-block;
+    padding: 20px;
+    transition: all 0.5s;
+  }
+  
+  .right {
+      position: static;
+    transform: rotate(-45deg);
+    margin-left: 105%;
+    cursor: pointer;
+    transition: 0.5s;
+    -webkit-transform: rotate(-45deg);
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+  }
+  
+  .left {
+      position: static;
+    transform: rotate(135deg);
+    margin-left: -125%;
+    cursor: pointer;
+    transition: 0.5s;
+    -webkit-transform: rotate(135deg);
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+  }
+
+.pic1 {  
+ text-align: fixed top center;
+ font-family: Impact, "Haettenschweiler", 'Arial Narrow Bold', sans-serif;
+ color: white;
+  font-size: 100px;
+  margin: 0px;
+  padding: 0px;
+    
+    
+}
+
+.button {
+    border-radius: 10px;
+    border-width: 1px;
+    position: absolute;
+    margin: -10px 0px 0px -80px;
+
+}
+ 
+#button1 {
+    color: white;
+    font-size: 20px;
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, "sans-serif";
+    background-color: black;
+    border: solid orangered 2px;
+    box-sizing: border-box;
+    box-shadow: orangered;
+
+}
+
+
+.Music {
+    background: black;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+@keyframes tab {
+    from {background-color:purple;}
+    to {background-color:black;}
+  
+}
+
+.tab {
+    text-align: center;
+    color: orange;
+    width: 1081.5px;
+    height: 200px;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', "Lucida Grande", 'Lucida Sans', Arial, sans-serif;
+    animation-name: tab;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+}
+  
+/* Image Section */
+
+#button2  {
+    border-radius: 10px;
+    text-align: center;
+}
+
+.tiles {
+    text-align: center;
+    float: inline-end;
+
+}
+
+#buy {
+    border: black solid 3px;
+    border-radius: 10px;
+
+
+}
+
+
+
+footer {
+    background-color:purple;
+    height: 25px;
+    font-size:1.2em;
+    color: #fff;
+    text-align: center;
+    padding: 1.5em 2.0em;
+}
+
+footer ul#menuFooter {
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 0.6em;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 0 0.7em 0 0;
+    margin: 0;
+}
+
+footer ul li::before {
+    content: "| ";
+    padding-right: 0.9em;
+}
+
+footer a, footer a:visited {
+    color: orangered;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+div.clear {
+    clear:both;
+    font-size:1%;
+}
+
+
